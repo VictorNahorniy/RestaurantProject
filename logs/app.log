@@ -1,0 +1,177 @@
+16:33:07.697 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=2118ECE5E2E8E3FB2EA60547FE74D285
+16:33:25.984 [http-nio-8080-exec-7] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+16:33:55.424 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=065EB7AEA87D7412D59D9A6B2C4E481B
+16:58:02.834 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+17:12:13.418 [http-nio-8080-exec-1] INFO  com.restaurant.controllers.RegistrationServlet - user Vasyl signed up successfully
+17:42:41.954 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=2118ECE5E2E8E3FB2EA60547FE74D285
+20:16:50.211 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=D1478EB757BAD8194413164291E195B9
+21:15:36.879 [http-nio-8080-exec-4] INFO  com.restaurant.controllers.RegistrationServlet - user Andriy_Vasyliv signed up successfully
+21:16:31.207 [http-nio-8080-exec-2] INFO  com.restaurant.controllers.EditProfileServlet - Profile updated
+21:16:32.152 [http-nio-8080-exec-2] INFO  com.restaurant.controllers.EditProfileServlet - success
+16:23:39.111 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=D1478EB757BAD8194413164291E195B9
+16:29:02.917 [http-nio-8080-exec-1] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=E6897DCAB7ACFD2EFF84E3C6654DE9A9
+16:29:42.185 [http-nio-8080-exec-2] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+17:06:25.198 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=E6897DCAB7ACFD2EFF84E3C6654DE9A9
+17:28:10.247 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=8D00F8199CB85C3D2FC148BAEDE25AC0
+17:29:25.229 [http-nio-8080-exec-1] ERROR com.restaurant.database.dao.impl.BaseImpl - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-6, 6' at line 1
+17:44:36.860 [http-nio-8080-exec-2] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+17:44:48.690 [http-nio-8080-exec-9] ERROR com.restaurant.database.dao.impl.BaseImpl - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-6, 3' at line 1
+18:43:40.519 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=8D00F8199CB85C3D2FC148BAEDE25AC0
+18:47:46.192 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=FB3840A10301268ED940E29FE232E403
+19:19:52.806 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=FB3840A10301268ED940E29FE232E403
+20:07:34.132 [http-nio-8080-exec-10] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=D8CBB4C677910AE5811936D24780F7D5
+20:37:57.478 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=D8CBB4C677910AE5811936D24780F7D5
+23:50:58.425 [http-nio-8080-exec-7] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=3DC6D49C2642AEFEA8B2BEB90864D090
+00:23:34.092 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=3DC6D49C2642AEFEA8B2BEB90864D090
+14:18:39.733 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=C9C78A9BA3EF23806CACED30241C6C4C
+14:20:42.348 [http-nio-8080-exec-1] ERROR com.restaurant.database.dao.impl.BaseImpl - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asclimit0,3' at line 1
+14:23:39.584 [http-nio-8080-exec-2] ERROR com.restaurant.database.dao.impl.BaseImpl - Parameter index out of range (3 > number of parameters, which is 2).
+14:25:09.763 [http-nio-8080-exec-9] ERROR com.restaurant.database.dao.impl.BaseImpl - Parameter index out of range (3 > number of parameters, which is 2).
+14:56:40.888 [http-nio-8080-exec-8] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+14:56:43.067 [http-nio-8080-exec-9] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+14:56:44.770 [http-nio-8080-exec-10] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+14:56:45.307 [http-nio-8080-exec-1] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+14:59:00.295 [http-nio-8080-exec-4] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+15:04:07.968 [http-nio-8080-exec-3] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+15:04:11.068 [http-nio-8080-exec-5] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+15:04:12.514 [http-nio-8080-exec-6] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+15:04:13.336 [http-nio-8080-exec-7] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+15:05:37.803 [http-nio-8080-exec-2] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "com.restaurant.controllers.paginationStrategy.PaginationStrategy.execute(int, int, javax.servlet.http.HttpServletRequest)" because "strategy" is null
+15:05:38.494 [http-nio-8080-exec-1] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "com.restaurant.controllers.paginationStrategy.PaginationStrategy.execute(int, int, javax.servlet.http.HttpServletRequest)" because "strategy" is null
+15:05:41.197 [http-nio-8080-exec-3] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "com.restaurant.controllers.paginationStrategy.PaginationStrategy.execute(int, int, javax.servlet.http.HttpServletRequest)" because "strategy" is null
+15:06:05.666 [http-nio-8080-exec-7] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "com.restaurant.controllers.paginationStrategy.PaginationStrategy.execute(int, int, javax.servlet.http.HttpServletRequest)" because "strategy" is null
+15:07:10.875 [http-nio-8080-exec-3] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+15:07:38.544 [http-nio-8080-exec-6] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+15:07:41.298 [http-nio-8080-exec-7] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+15:07:43.012 [http-nio-8080-exec-8] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+15:42:32.926 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=C9C78A9BA3EF23806CACED30241C6C4C
+17:15:27.106 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=57829D64A2A27E418F9BC3E75B692607
+18:37:08.888 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=57829D64A2A27E418F9BC3E75B692607
+14:35:57.888 [http-nio-8080-exec-9] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=E794E3C240C32A0E63FE37FE8F9FD732
+15:10:24.699 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=E794E3C240C32A0E63FE37FE8F9FD732
+20:24:48.085 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=D921BA97B7C3D4D8FDEB067E19CE4389
+22:27:14.082 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=D921BA97B7C3D4D8FDEB067E19CE4389
+16:48:11.276 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=5E5E348C2F91C202CD86263476E363C3
+17:04:48.993 [http-nio-8080-exec-4] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+17:04:53.099 [http-nio-8080-exec-5] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+17:04:53.836 [http-nio-8080-exec-6] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+17:04:54.689 [http-nio-8080-exec-7] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+17:13:52.880 [http-nio-8080-exec-1] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+17:13:56.033 [http-nio-8080-exec-2] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+17:41:22.138 [http-nio-8080-exec-5] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+17:41:23.252 [http-nio-8080-exec-6] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+17:41:24.440 [http-nio-8080-exec-7] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+18:30:26.812 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=5E5E348C2F91C202CD86263476E363C3
+19:33:50.169 [http-nio-8080-exec-8] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=B24B5B29E7C2D6A7A9B318DC151269BC
+19:36:40.325 [http-nio-8080-exec-3] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+19:37:22.008 [http-nio-8080-exec-10] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+19:40:28.726 [http-nio-8080-exec-10] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+19:40:33.089 [http-nio-8080-exec-1] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+19:40:34.656 [http-nio-8080-exec-2] ERROR com.restaurant.controllers.PaginationServlet - Cannot invoke "String.equals(Object)" because "sort" is null
+19:58:24.195 [http-nio-8080-exec-7] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+20:23:09.256 [http-nio-8080-exec-2] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+20:35:41.416 [http-nio-8080-exec-2] ERROR com.restaurant.database.dao.impl.BaseImpl - User not found
+20:35:41.438 [http-nio-8080-exec-2] ERROR com.restaurant.filters.LoginFilter - java.lang.IllegalArgumentException: User not found
+20:57:42.956 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+21:32:37.787 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=B24B5B29E7C2D6A7A9B318DC151269BC
+21:43:28.277 [http-nio-8080-exec-1] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=E406022650A630CDE11353DC2CE6C123
+21:49:24.389 [http-nio-8080-exec-4] ERROR com.restaurant.database.dao.impl.BaseImpl - User not found
+21:49:24.396 [http-nio-8080-exec-4] ERROR com.restaurant.filters.LoginFilter - java.lang.IllegalArgumentException: User not found
+21:49:40.453 [http-nio-8080-exec-6] INFO  com.restaurant.controllers.LoginServlet - user Vasyl successfully logged in
+23:27:18.963 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=E406022650A630CDE11353DC2CE6C123
+14:27:33.065 [http-nio-8080-exec-3] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=0C9735D5A910B858DFAEE69E79650AFE
+14:32:11.613 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+16:06:15.998 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=0C9735D5A910B858DFAEE69E79650AFE
+16:49:08.963 [http-nio-8080-exec-6] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=3E79D8631A8037C9E963A1864245DB36
+16:51:29.797 [http-nio-8080-exec-4] INFO  com.restaurant.controllers.RegistrationServlet - user VictorNahorniy signed up successfully
+16:53:30.094 [http-nio-8080-exec-1] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+17:02:52.642 [http-nio-8080-exec-6] INFO  com.restaurant.controllers.LoginServlet - user VictorNahorniy successfully logged in
+20:34:29.188 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=3E79D8631A8037C9E963A1864245DB36
+23:21:40.862 [http-nio-8080-exec-1] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=B8D5D814B38ED14A7E7B6545042305AF
+23:24:45.359 [http-nio-8080-exec-7] INFO  com.restaurant.controllers.AddToCartServlet - logged
+23:55:21.117 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=B8D5D814B38ED14A7E7B6545042305AF
+13:18:03.933 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=268F81964B78F1084A5191491D5C93B6
+14:12:16.105 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=268F81964B78F1084A5191491D5C93B6
+14:39:41.876 [http-nio-8080-exec-4] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=F4F90424A1630D29196371C46A0D8188
+15:31:39.491 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=F4F90424A1630D29196371C46A0D8188
+20:50:00.119 [http-nio-8080-exec-3] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=0AC77A2761917EC20321D49256949C63
+21:36:46.210 [http-nio-8080-exec-4] INFO  com.restaurant.controllers.LoginServlet - user Yulia successfully logged in
+22:49:51.533 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=0AC77A2761917EC20321D49256949C63
+14:57:03.490 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=0DC040516D1787931F83F68A50D11BAE
+15:39:48.610 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=0DC040516D1787931F83F68A50D11BAE
+15:50:04.394 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=EE27C52B7B36E02BCB7EB3FA4145F24C
+17:04:17.675 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=EE27C52B7B36E02BCB7EB3FA4145F24C
+17:54:46.653 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=109D852B287680A377B8D447CF10C77C
+18:12:24.967 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=1E6195C4880B8B611EFB86D820C31FB6
+18:16:06.419 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=34CE05DE176CEB4613AB776718F9DE76
+18:26:37.695 [http-nio-8080-exec-1] INFO  com.restaurant.controllers.AddToCartServlet - logged
+18:26:41.386 [http-nio-8080-exec-6] INFO  com.restaurant.controllers.AddToCartServlet - logged
+20:54:21.473 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=34CE05DE176CEB4613AB776718F9DE76
+20:54:22.917 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=5179A039084ACF8768A4ED75CD175610
+20:58:11.908 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=1495F8A70B8B688A2C61A43CF51B846A
+21:00:45.731 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=18D8D4AB689E4F42429B7DC1DF8F5D1D
+21:03:06.234 [http-nio-8080-exec-6] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=58617C7D145FA90100314088F4A4AE73
+21:04:03.691 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=EA38E789CD5C824B5DAF918BB2A82B05
+21:46:36.519 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=18D8D4AB689E4F42429B7DC1DF8F5D1D
+21:46:36.520 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=58617C7D145FA90100314088F4A4AE73
+21:46:36.524 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=1495F8A70B8B688A2C61A43CF51B846A
+21:46:36.536 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=5179A039084ACF8768A4ED75CD175610
+21:46:36.539 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=EA38E789CD5C824B5DAF918BB2A82B05
+21:46:43.800 [http-nio-8080-exec-3] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=AF5410A88FFA63BD275ED8496ABDD458
+21:46:43.817 [http-nio-8080-exec-3] INFO  com.restaurant.controllers.AddToCartServlet - logged
+21:46:58.786 [http-nio-8080-exec-6] INFO  com.restaurant.controllers.LoginServlet - user User successfully logged in
+21:56:44.492 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=843787EC232532ED977F5CC98A2A2F02
+21:57:03.653 [http-nio-8080-exec-4] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+19:49:00.541 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=227E7CC9BAF8C73AEC2E095209A52A7F
+19:49:15.235 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+20:37:07.405 [http-nio-8080-exec-9] INFO  com.restaurant.controllers.AddToCartServlet - logged
+20:37:18.231 [http-nio-8080-exec-9] INFO  com.restaurant.controllers.AddToCartServlet - logged
+21:08:26.394 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=227E7CC9BAF8C73AEC2E095209A52A7F
+13:22:33.138 [http-nio-8080-exec-7] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=743CC6B19A191C9CDFCECC58F5D70636
+14:37:58.077 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=743CC6B19A191C9CDFCECC58F5D70636
+15:28:02.069 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=9F3483E84294C19D2CBEBA46FDB534B5
+15:30:08.223 [http-nio-8080-exec-1] INFO  com.restaurant.controllers.RegistrationServlet - user Yulia222 signed up successfully
+15:30:58.433 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.AddToCartServlet - logged
+15:31:02.794 [http-nio-8080-exec-7] INFO  com.restaurant.controllers.AddToCartServlet - logged
+15:31:07.127 [http-nio-8080-exec-10] INFO  com.restaurant.controllers.AddToCartServlet - logged
+15:31:14.029 [http-nio-8080-exec-4] INFO  com.restaurant.controllers.AddToCartServlet - logged
+15:31:19.294 [http-nio-8080-exec-8] INFO  com.restaurant.controllers.AddToCartServlet - logged
+15:32:47.048 [http-nio-8080-exec-6] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=764F77C0F27572B13A243C5B547ABF46
+15:33:01.590 [http-nio-8080-exec-9] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+15:41:14.907 [http-nio-8080-exec-4] INFO  com.restaurant.controllers.AddToCartServlet - logged
+15:43:43.078 [http-nio-8080-exec-4] INFO  com.restaurant.controllers.AddToCartServlet - logged
+16:14:05.222 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=764F77C0F27572B13A243C5B547ABF46
+16:19:05.532 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=9F3483E84294C19D2CBEBA46FDB534B5
+20:39:59.053 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=811B8F8A932923B5D243D284EFD0EB30
+20:48:56.942 [http-nio-8080-exec-1] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=3ECB4BA82DD6C456DDF7802CA156914D
+20:49:05.317 [http-nio-8080-exec-2] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+21:09:02.103 [http-nio-8080-exec-6] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=C663AA96E3CF3378611CE506FE1578BA
+21:09:10.532 [http-nio-8080-exec-9] INFO  com.restaurant.controllers.LoginServlet - user User successfully logged in
+21:31:42.638 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Молочний коктейль', weight=200, describing='Молочний коктейль — десертний напій на основі молока і морозива. Для додання коктейлю різних смаків, у нього додають сиропи, варення, фрукти, збиті вершки, креми, тертий шоколад та ін. харчові компоненти.', image=images/img_2.png}=1, Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=2}
+21:31:43.595 [http-nio-8080-exec-7] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Молочний коктейль', weight=200, describing='Молочний коктейль — десертний напій на основі молока і морозива. Для додання коктейлю різних смаків, у нього додають сиропи, варення, фрукти, збиті вершки, креми, тертий шоколад та ін. харчові компоненти.', image=images/img_2.png}=1}
+21:31:44.395 [http-nio-8080-exec-9] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Молочний коктейль', weight=200, describing='Молочний коктейль — десертний напій на основі молока і морозива. Для додання коктейлю різних смаків, у нього додають сиропи, варення, фрукти, збиті вершки, креми, тертий шоколад та ін. харчові компоненти.', image=images/img_2.png}=1}
+21:31:45.083 [http-nio-8080-exec-2] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Молочний коктейль', weight=200, describing='Молочний коктейль — десертний напій на основі молока і морозива. Для додання коктейлю різних смаків, у нього додають сиропи, варення, фрукти, збиті вершки, креми, тертий шоколад та ін. харчові компоненти.', image=images/img_2.png}=1}
+21:34:45.501 [http-nio-8080-exec-1] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Молочний коктейль', weight=200, describing='Молочний коктейль — десертний напій на основі молока і морозива. Для додання коктейлю різних смаків, у нього додають сиропи, варення, фрукти, збиті вершки, креми, тертий шоколад та ін. харчові компоненти.', image=images/img_2.png}=1}
+21:34:54.526 [http-nio-8080-exec-3] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Молочний коктейль', weight=200, describing='Молочний коктейль — десертний напій на основі молока і морозива. Для додання коктейлю різних смаків, у нього додають сиропи, варення, фрукти, збиті вершки, креми, тертий шоколад та ін. харчові компоненти.', image=images/img_2.png}=1}
+21:34:57.935 [http-nio-8080-exec-9] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Молочний коктейль', weight=200, describing='Молочний коктейль — десертний напій на основі молока і морозива. Для додання коктейлю різних смаків, у нього додають сиропи, варення, фрукти, збиті вершки, креми, тертий шоколад та ін. харчові компоненти.', image=images/img_2.png}=1}
+21:34:58.943 [http-nio-8080-exec-1] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Молочний коктейль', weight=200, describing='Молочний коктейль — десертний напій на основі молока і морозива. Для додання коктейлю різних смаків, у нього додають сиропи, варення, фрукти, збиті вершки, креми, тертий шоколад та ін. харчові компоненти.', image=images/img_2.png}=1}
+21:37:26.307 [http-nio-8080-exec-6] INFO  com.restaurant.controllers.RemoveFromCartServlet - {}
+21:37:45.162 [http-nio-8080-exec-7] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:37:57.296 [http-nio-8080-exec-3] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:37:58.464 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:37:59.359 [http-nio-8080-exec-7] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:38:01.664 [http-nio-8080-exec-10] INFO  com.restaurant.controllers.RemoveFromCartServlet - {}
+21:39:50.875 [http-nio-8080-exec-8] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:39:51.947 [http-nio-8080-exec-10] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:39:52.661 [http-nio-8080-exec-1] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:39:53.883 [http-nio-8080-exec-3] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:39:54.092 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:39:54.292 [http-nio-8080-exec-8] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:39:54.487 [http-nio-8080-exec-10] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:40:37.106 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=C663AA96E3CF3378611CE506FE1578BA
+21:40:44.273 [http-nio-8080-exec-8] INFO  com.restaurant.controllers.RemoveFromCartServlet - {Dish{id=3, price=2.35, name='Milkshake', weight=200, describing='Sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. It may also be made using a base made from non-dairy products, including plant milks such as almond milk, coconut milk, or soy milk.', image=images/img_2.png}=1}
+21:40:47.009 [http-nio-8080-exec-9] INFO  com.restaurant.controllers.RemoveFromCartServlet - {}
+21:45:07.342 [http-nio-8080-exec-8] INFO  com.restaurant.controllers.RemoveFromCartServlet - 1
+21:46:58.527 [http-nio-8080-exec-7] INFO  com.restaurant.controllers.RemoveFromCartServlet - 1
+22:43:04.541 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=3ECB4BA82DD6C456DDF7802CA156914D
+22:43:32.057 [http-nio-8080-exec-10] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=29782650335AEA69BC8184DBEF049C93
