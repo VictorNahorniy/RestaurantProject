@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title>Title</title>
@@ -18,12 +18,6 @@
                     <a class="nav-link" id="v-pills-profile-tab-user" data-toggle="pill" href="#v-pills-profile-user"
                        role="tab"
                        aria-controls="v-pills-profile-user" aria-selected="false"><fmt:message key="profile.edit_profile"/></a>
-                    <%--<a class="nav-link" id="v-pills-messages-tab-user" data-toggle="pill" href="#v-pills-messages-user"
-                       role="tab"
-                       aria-controls="v-pills-messages-user" aria-selected="false">Messages</a>
-                    <a class="nav-link" id="v-pills-settings-tab-user" data-toggle="pill" href="#v-pills-settings-user"
-                       role="tab"
-                       aria-controls="v-pills-settings-user" aria-selected="false">Settings</a>--%>
                 </div>
             </div>
             <div class="col-9">
@@ -35,12 +29,6 @@
                     <div class="tab-pane fade" id="v-pills-profile-user" role="tabpanel"
                          aria-labelledby="v-pills-profile-tab-user">
                         <%@include file="profile-includes/edit-profile.jsp" %>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-messages-user" role="tabpanel"
-                         aria-labelledby="v-pills-messages-tab-user"></div>
-                    <div class="tab-pane fade" id="v-pills-settings-user" role="tabpanel"
-                         aria-labelledby="v-pills-settings-tab-user">
-                        <%@include file="lol.jsp" %>
                     </div>
                 </div>
             </div>

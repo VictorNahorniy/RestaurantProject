@@ -23,15 +23,20 @@ public class FinishOrderServlet extends HttpServlet {
         Addresses addresses = (Addresses) session.getAttribute("address");
         Client client = (Client) session.getAttribute("user");
         OrderDish orderDish = (OrderDish) session.getAttribute("orderDish");
-        order.setPrice(orderDish.getTotalPrice());
-        order.setOrderDate(new Timestamp(System.currentTimeMillis()));
-        order.setClientID(client.getId());
-        order.setStatus(OrderStatus.NEW);
-        order.setAddressesID(addresses.getId());
+
+        setOrder(order, orderDish, client, addresses);
         orderDish.setOrder(order);
         orderDao.insert(order);
         new OrderDishDaoImpl().insertOrderDish(orderDish);
         session.setAttribute("order", order);
         response.sendRedirect("profile.jsp");
+    }
+
+    private void setOrder(Order order, OrderDish orderDish, Client client, Addresses addresses) {
+        order.setPrice(orderDish.getTotalPrice());
+        order.setOrderDate(new Timestamp(System.currentTimeMillis()));
+        order.setClientID(client.getId());
+        order.setStatus(OrderStatus.NEW);
+        order.setAddressesID(addresses.getId());
     }
 }

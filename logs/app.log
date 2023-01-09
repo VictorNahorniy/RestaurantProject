@@ -175,3 +175,8 @@
 21:46:58.527 [http-nio-8080-exec-7] INFO  com.restaurant.controllers.RemoveFromCartServlet - 1
 22:43:04.541 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=3ECB4BA82DD6C456DDF7802CA156914D
 22:43:32.057 [http-nio-8080-exec-10] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=29782650335AEA69BC8184DBEF049C93
+14:33:00.652 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=AF110E95EA7697887F4EE670E81CBDB4
+14:33:15.998 [http-nio-8080-exec-7] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+15:04:54.321 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=AF110E95EA7697887F4EE670E81CBDB4
+16:25:45.570 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=8232ED47B43B581C24BBA3A7F1A58A24
+16:25:57.678 [http-nio-8080-exec-4] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
