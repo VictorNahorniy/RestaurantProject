@@ -180,3 +180,6 @@
 15:04:54.321 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=AF110E95EA7697887F4EE670E81CBDB4
 16:25:45.570 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=8232ED47B43B581C24BBA3A7F1A58A24
 16:25:57.678 [http-nio-8080-exec-4] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+17:04:58.025 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=8232ED47B43B581C24BBA3A7F1A58A24
+15:14:01.608 [http-nio-8080-exec-1] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=093C66F6CA553AFBB6848EBD1E72AF6B
+15:14:31.031 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
