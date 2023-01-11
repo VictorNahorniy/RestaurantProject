@@ -183,3 +183,12 @@
 17:04:58.025 [Catalina-utility-2] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=8232ED47B43B581C24BBA3A7F1A58A24
 15:14:01.608 [http-nio-8080-exec-1] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=093C66F6CA553AFBB6848EBD1E72AF6B
 15:14:31.031 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+15:49:14.887 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=093C66F6CA553AFBB6848EBD1E72AF6B
+17:39:00.072 [http-nio-8080-exec-9] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=828B775ADE59F8EB090DA5E482077B90
+17:48:13.135 [http-nio-8080-exec-4] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+17:53:00.362 [http-nio-8080-exec-5] INFO  com.restaurant.controllers.LoginServlet - user Andriy_Vasyliv successfully logged in
+18:24:30.707 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=828B775ADE59F8EB090DA5E482077B90
+20:59:16.593 [http-nio-8080-exec-8] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=0DC5342F9DFCE0B45188E0600399C650
+20:59:31.733 [http-nio-8080-exec-9] INFO  com.restaurant.controllers.LoginServlet - user Admin successfully logged in
+21:30:13.892 [Catalina-utility-1] INFO  com.restaurant.listeners.SessionListener - Session Destroyed:: ID=0DC5342F9DFCE0B45188E0600399C650
+22:52:40.893 [http-nio-8080-exec-2] INFO  com.restaurant.listeners.SessionListener - Session Created:: ID=177DCA0A285D63F60E292B22D415FBFD

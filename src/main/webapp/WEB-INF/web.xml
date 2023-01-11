@@ -35,13 +35,13 @@
         <filter-name>confirmFilter</filter-name>
         <url-pattern>/confirm</url-pattern>
     </filter-mapping>
-  <!--  <error-page>
+    <error-page>
         <error-code>500</error-code>
         <location>/exceptions/500.jsp</location>
     </error-page>
     <error-page>
         <location>/exceptions/404.jsp</location>
-    </error-page>-->
+    </error-page>
     <listener>
         <listener-class>com.restaurant.listeners.SessionListener</listener-class>
     </listener>

@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class ClientDaoImpl extends BaseImpl implements ClientDao {
 
@@ -109,7 +110,6 @@ public class ClientDaoImpl extends BaseImpl implements ClientDao {
                 resultSet.close();
             } catch (SQLException e) {
                 log.error(e.getMessage());
-                throw new RuntimeException(e);
             }
         }
     }
@@ -147,88 +147,64 @@ public class ClientDaoImpl extends BaseImpl implements ClientDao {
 
     @Override
     public Client findEntityById(int id) throws SQLException {
-        for (Client client : findAll()) {
-            if (client.getId() == id) {
-                return client;
-            }
+        Optional<Client> client = findAll().stream().filter(client1 -> client1.getId() == id).findFirst();
+        if(client.isEmpty()){
+            log.error(id + "not found");
+            throw new SQLException();
         }
-        log.error(id + "not found");
-        throw new SQLException();
+        return client.get();
     }
 
     @Override
     public Client findClientByNumber(String number) throws SQLException {
-        for (Client client : findAll()) {
-            if (client.getNumber().equals(number)) {
-                return client;
-            }
+        Optional<Client> client = findAll().stream().filter(client1 -> client1.getNumber().equals(number)).findFirst();
+        if(client.isEmpty()){
+            log.error(number + " not found");
+            throw new SQLException();
         }
-        throw new SQLException();
+        return client.get();
     }
 
     @Override
     public Client findClientByLogin(String login) throws SQLException {
-        for (Client client : findAll()) {
-            if (client.getLogin().equals(login)) {
-                return client;
-            }
+        Optional<Client> client = findAll().stream().filter(client1 -> client1.getLogin().equals(login)).findFirst();
+        if(client.isEmpty()){
+            log.error(login + " not found");
+            throw new SQLException();
         }
-        throw new SQLException();
+        return client.get();
     }
 
     @Override
     public List<Client> findClientByLastname(String lastname) {
-        List<Client> clientList = new ArrayList<>();
-        for (Client client : findAll()) {
-            if (client.getLastName().equals(lastname)) {
-                clientList.add(client);
-            }
-        }
-        return clientList;
+        return findAll().stream().filter(client -> client.getLastName().equals(lastname)).toList();
     }
 
     @Override
     public List<Client> findManagers() {
-        List<Client> clientList = new ArrayList<>();
-        for (Client client : findAll()) {
-            if (client.isManager()) {
-                clientList.add(client);
-            }
-        }
-        return clientList;
+        return findAll().stream().filter(Client::isManager).toList();
     }
 
     @Override
     public List<Client> findUsers() {
-        List<Client> clientList = new ArrayList<>();
-        for (Client client : findAll()) {
-            if (!client.isManager()) {
-                clientList.add(client);
-            }
-        }
-        return clientList;
+        return findAll().stream().filter(client -> !client.isManager()).toList();
     }
 
     @Override
     public Client checkClientLogin(String login, String password) {
-        for (Client client : findAll()) {
-            if (client.getLogin().equals(login) && client.getPassword().equals(password)) {
-                return client;
-            }
+        Optional<Client> client = findAll().stream()
+                        .filter(client1 -> client1.getLogin().equals(login) && client1.getPassword().equals(password))
+                        .findFirst();
+        if(client.isEmpty()){
+            log.error("User not found");
+            throw new IllegalArgumentException("User not found");
         }
-        log.error("User not found");
-        throw new IllegalArgumentException("User not found");
+        return client.get();
     }
 
     @Override
     public boolean isLoginUsed(String login) {
-        for (Client client : findAll()) {
-            if (client.getLogin().equals(login)) {
-                log.error("Login is used");
-                return true;
-            }
-        }
-        return false;
+        return !findAll().stream().filter(client -> client.getLogin().equals(login)).toList().isEmpty();
     }
 
     @Override

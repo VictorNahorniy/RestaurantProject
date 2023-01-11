@@ -8,29 +8,18 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class AddresseesDaoImpl extends BaseImpl implements AddresseesDao {
 
     @Override
     public List<Addresses> findAddressesByCity(String city) {
-        List<Addresses> addressesList = new ArrayList<>();
-        for (Addresses addresses : findAll()) {
-            if (city.equals(addresses.getCity())) {
-                addressesList.add(addresses);
-            }
-        }
-        return addressesList;
+        return findAll().stream().filter(addresses -> addresses.getCity().equals(city)).toList();
     }
 
     @Override
     public List<Addresses> findAddressesByStreet(String street) {
-        List<Addresses> addressesList = new ArrayList<>();
-        for (Addresses addresses : findAll()) {
-            if (street.equals(addresses.getStreet())) {
-                addressesList.add(addresses);
-            }
-        }
-        return addressesList;
+        return findAll().stream().filter(addresses -> addresses.getCity().equals(street)).toList();
     }
 
     @Override
@@ -126,12 +115,11 @@ public class AddresseesDaoImpl extends BaseImpl implements AddresseesDao {
 
     @Override
     public Addresses findEntityById(int id) {
-        for (Addresses addresses : findAll()) {
-            if (id == addresses.getId()) {
-                return addresses;
-            }
+        Optional<Addresses> optionalAddresses = findAll().stream().filter(addresses -> addresses.getId() == id).findFirst();
+        if (optionalAddresses.isEmpty()) {
+            log.error(id + " not found");
+            throw new IllegalArgumentException(String.valueOf(id));
         }
-        log.error(id + " not found");
-        throw new IllegalArgumentException(String.valueOf(id));
+        return optionalAddresses.get();
     }
 }

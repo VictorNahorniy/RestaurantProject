@@ -12,9 +12,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class DishDaoImpl extends BaseImpl implements DishDao {
-    private Language language;
+    private final Language language;
 
     public DishDaoImpl(Language language) {
         this.language = language;
@@ -117,44 +118,32 @@ public class DishDaoImpl extends BaseImpl implements DishDao {
 
     @Override
     public Dish findEntityById(int id) {
-        for (Dish dish : findAll()) {
-            if (dish.getId() == id) {
-                return dish;
-            }
+        Optional<Dish> dish = findAll().stream().filter(dish1 -> dish1.getId() == id).findFirst();
+        if(dish.isEmpty()){
+            log.error("Dish with id " + id + " not found");
+            throw new IllegalArgumentException(String.valueOf(id));
         }
-        throw new IllegalArgumentException(String.valueOf(id));
+        return dish.get();
     }
 
     @Override
     public Dish findDishByName(String name) {
-        for (Dish dish : findAll()) {
-            if (dish.getName().equals(name)) {
-                return dish;
-            }
+        Optional<Dish> dish = findAll().stream().filter(dish1 -> dish1.getName().equals(name)).findFirst();
+        if(dish.isEmpty()){
+            log.error("Dish with name " + name + " not found");
+            throw new IllegalArgumentException(name);
         }
-        throw new IllegalArgumentException(name);
+        return dish.get();
     }
 
     @Override
     public List<Dish> findDishByWeight(int weight) {
-        List<Dish> dishList = new ArrayList<>();
-        for (Dish dish : findAll()) {
-            if (dish.getWeight() == weight) {
-                dishList.add(dish);
-            }
-        }
-        return dishList;
+        return findAll().stream().filter(dish1 -> dish1.getWeight() == weight).toList();
     }
 
     @Override
     public List<Dish> findDishByPrice(float price) {
-        List<Dish> dishList = new ArrayList<>();
-        for (Dish dish : findAll()) {
-            if (dish.getPrice() == price) {
-                dishList.add(dish);
-            }
-        }
-        return dishList;
+        return findAll().stream().filter(dish -> dish.getPrice() == price).toList();
     }
 
     @Override
